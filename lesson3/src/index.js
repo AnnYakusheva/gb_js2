@@ -21,3 +21,11 @@ eventEmitter.subscribe('cartFetched', (data) => {
 
 showcase.fetch()
 cart.fetch()
+
+// eventEmitter.subscribe('showcaseFetched', () => {
+//     showcase.buy(5)
+// })
+
+eventEmitter.subscribe('cartFetched', () => {
+    cart.remove(2)
+})

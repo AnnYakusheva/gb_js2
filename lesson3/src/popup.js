@@ -45,3 +45,19 @@ const popupOpen = (curentPopup) => {
         })
     }
 }
+
+export default class Popup {
+    constructor() {
+        this.popupLinks = popupLinks
+        this.popupName = popupName
+        
+    }
+
+    popupOpen() {
+
+    }
+
+    popupClose() {
+
+    }
+}
