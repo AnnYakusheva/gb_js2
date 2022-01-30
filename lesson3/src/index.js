@@ -11,21 +11,22 @@ const eventEmitter = new EventEmitter()
 const cart = new CartModel(api, eventEmitter)
 const showcase = new ShowcaseModel(api, eventEmitter, cart)
 
+
+showcase.fetch()
+cart.fetch()
+
+// eventEmitter.subscribe('showcaseFetched', () => {
+//     showcase.buy(3)
+// })
+
+eventEmitter.subscribe('cartFetched', () => {
+    cart.remove(3)
+})
+
 eventEmitter.subscribe('showcaseFetched', (data) => {
     console.log(data)
 })
 
 eventEmitter.subscribe('cartFetched', (data) => {
     console.log(data)
-})
-
-showcase.fetch()
-cart.fetch()
-
-// eventEmitter.subscribe('showcaseFetched', () => {
-//     showcase.buy(5)
-// })
-
-eventEmitter.subscribe('cartFetched', () => {
-    cart.remove(2)
 })

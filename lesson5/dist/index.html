@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="/src/styles/main.css"> -->
+    <title>GeekBrains Shop JS2</title>
+<script defer src="main.bundle.js"></script></head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header__wrp">
+                <div class="header__logo">
+                    <h1>GBshop</h1>
+                </div>
+                <div class="header__nav">
+                    <div class="cart__button">
+                        <a href="#popup" class="cart-button popup__link" type="button">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 512 512" enable-background="new 0 0 512 512">
+                                <g>
+                                <g>
+                                    <g>
+                                    <path d="m90,190h67.3v67.3c0,11.3 9.1,20.4 20.4,20.4 11.3,0 20.4-9.1 20.4-20.4v-67.3h67.3c11.3,0 20.4-9.1 20.4-20.4 0-11.3-9.1-20.4-20.4-20.4h-67.3v-67.4c0-11.3-9.1-20.4-20.4-20.4-11.3,0-20.4,9.1-20.4,20.4v67.3h-67.3c-11.3,0-20.4,9.1-20.4,20.4 0,11.3 9.2,20.5 20.4,20.5z"/>
+                                    <path d="M475.4,10.8h-98.5c-11.3,0-20.4,9.1-20.4,20.4v280.8H36.9c-11.3,0-20.4,9.1-20.4,20.4c0,11.3,9.1,20.4,20.4,20.4h339.9     c11.3,0,20.4-9.1,20.4-20.4V51.7h78.1c11.3,0,20.4-9.1,20.4-20.4C495.8,20,486.6,10.8,475.4,10.8z"/>
+                                    <path d="m129.1,363.4c-38.1,0-69.1,30.8-69.1,68.7s31,68.7 69.1,68.7c38.1,0 69.1-30.8 69.1-68.7s-31-68.7-69.1-68.7zm0,96.6c-15.6,0-28.3-12.5-28.3-27.9 0-15.4 12.7-27.9 28.3-27.9 15.6,0 28.3,12.5 28.3,27.9 0,15.4-12.7,27.9-28.3,27.9z"/>
+                                    <path d="m306.1,363.4c-38.1,0-69.1,30.8-69.1,68.7s31,68.7 69.1,68.7c38.1,0 69.1-30.8 69.1-68.7s-31-68.7-69.1-68.7zm0,96.6c-15.6,0-28.3-12.5-28.3-27.9 0-15.4 12.7-27.9 28.3-27.9 15.6,0 28.3,12.5 28.3,27.9-5.68434e-14,15.4-12.7,27.9-28.3,27.9z"/>
+                                    </g>
+                                </g>
+                                </g>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>      
+    </header>
+    <main>
+        <div class="container">
+
+            <div id="popup" class="popup">
+                <div class="popup__body">
+                    <div class="popup__content">
+                        <a href="#" class="popup__close close-popup">x</a>
+                        <div class="popup__title">Cart Title</div>
+                        <div class="popup__text">cart</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main__wrp">
+                <div class="search__input">
+                    <input id="search-line" type="text" class="search-line">
+                    <div class="search-item">
+                        <button id="search-button" class="search-button">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 487.95 487.95" style="enable-background:new 0 0 487.95 487.95;" xml:space="preserve">
+                                <g>
+                                    <g>
+                                        <path d="M481.8,453l-140-140.1c27.6-33.1,44.2-75.4,44.2-121.6C386,85.9,299.5,0.2,193.1,0.2S0,86,0,191.4s86.5,191.1,192.9,191.1    c45.2,0,86.8-15.5,119.8-41.4l140.5,140.5c8.2,8.2,20.4,8.2,28.6,0C490,473.4,490,461.2,481.8,453z M41,191.4    c0-82.8,68.2-150.1,151.9-150.1s151.9,67.3,151.9,150.1s-68.2,150.1-151.9,150.1S41,274.1,41,191.4z"/>
+                                    </g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                <g>
+                                </g>
+                                </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="showcase-model">
+                <ul class="showcase"></ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>2022 &copy;</p>
+    </footer>
+</body>
+</html>
+

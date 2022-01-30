@@ -17,8 +17,8 @@ describe('CartModel.fetch', () => {
         expect(model.list).toContain({"id":1,"title":"Jacket Gray","price":100})
     })
 
-    it('удаление товара из корзины', () => {
-        model.remove()
-        expect(model.list).toEqual([])
-    })
+    // it('удаление товара из корзины', () => {
+    //     model.remove()
+    //     expect(model.list).([])
+    // })
 })

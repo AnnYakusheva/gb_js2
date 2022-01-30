@@ -1,0 +1,15 @@
+
+main {
+    font-size: 1rem;
+    color: rgb(22, 112, 34);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header__wrp {
+    display: flex;
+    justify-content: space-around;
+}

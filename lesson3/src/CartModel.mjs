@@ -34,7 +34,7 @@ export default class CartModel extends ProductList {
                     this.remove(id)
                 },
                 onError,
-                this.list[index]
+                // this.list[index]
             )
         }
     }
